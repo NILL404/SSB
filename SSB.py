@@ -12,7 +12,6 @@ try:
 except:
     pass
 os.system('rm -rf Sarfraz.so Sarfraz32.so')
-os.system('git pull')
 
 bit = platform.architecture()[0]
 if bit == '64bit':
